@@ -1,0 +1,75 @@
+.profile{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(cyan 0%, red 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+body{
+    text-align: center;
+    padding-top: 600px;
+}
+h1{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+    font-family: CINS
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: serif;
+}
+.parallex-inner{
+  display: table-cell;  
+  vertical-align: middle;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;
+    font-variant: small-caps;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+    margin-top: 0px;
+    color: red;
+    
+}
+.links{
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+.contact_1 h3{
+display: inline;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;;
+}
